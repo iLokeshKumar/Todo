@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Expo
+.expo/
+web-build/
+
+# Environment variables
+.env
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Gemini Agent
+.gemini/
