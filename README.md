@@ -81,10 +81,10 @@ curl -X 'POST' \
   'http://localhost:8000/auth/signup' \
   -H 'Content-Type: application/json' \
   -d '{
-  "username": "johndoe",
-  "email": "john@example.com",
-  "full_name": "John Doe",
-  "password": "secretpassword"
+  "username": "lokesh",
+  "email": "lokesh@gmail.com",
+  "full_name": "Lokesh",
+  "password": "lokesh"
 }'
 ```
 
@@ -96,7 +96,7 @@ curl -X 'POST' \
 curl -X 'POST' \
   'http://localhost:8000/auth/token' \
   -H 'Content-Type: application/x-www-form-urlencoded' \
-  -d 'username=johndoe&password=secretpassword'
+  -d 'username=lokesh&password=lokesh'
 ```
 
 **Response**:
