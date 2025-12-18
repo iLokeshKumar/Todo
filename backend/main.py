@@ -32,3 +32,7 @@ app.include_router(users.router)
 @app.get("/")
 def read_root():
     return {"message": "Welcome to Todo App"}
+
+@app.get("/config")
+def read_config():
+    return {"message": "Hello World!"}
